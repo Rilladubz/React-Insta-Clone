@@ -1,5 +1,6 @@
 import React from 'react';
 import dummyData from '../DummyData/dummy-data';
+import './MainPage.css';
 
 // ________________Component-Imports__________________
 import SearchBar from '../SearchBar/SearchBar';
@@ -12,12 +13,15 @@ class MainPage extends React.Component {
             dummyData: dummyData,
         };
     };
+
+
+
     render() {
         // console.log(this.state.dummyData);
         return (
-            <div>
+            <div className='mainContainer'>
                 <SearchBar />
-                <PostContainer dumData={this.state.dummyData}/>
+                <PostContainer dumData={this.state.dummyData} />
             </div>
         );
     };

@@ -1,3 +1,8 @@
-.SearchBar{
-    
+.SearchBarContainer{
+    border: solid yellow;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }

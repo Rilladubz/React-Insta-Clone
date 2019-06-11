@@ -3,11 +3,13 @@ import '../SearchBar/SearchBar.css';
 import instaLogo from '../../Images/instaLogo.jpg';
 import instagramTypography from '../../Images/instagramTypography.jpg';
 import verticalBar from '../../Images/verticalBar.png';
+import './SearchBar.css';
 
 const SearchBar = () => {
     return (
-        <div className='SearchBar'>
-            <img src={instaLogo} alt="instaLogo"></img>|
+        <div className='SearchBarContainer'>
+
+            <img src={instaLogo} alt="instaLogo"></img>
             <img src={verticalBar} alt="verticalBar"></img>
             <img src={instagramTypography} alt="instagramTypo"></img>
 

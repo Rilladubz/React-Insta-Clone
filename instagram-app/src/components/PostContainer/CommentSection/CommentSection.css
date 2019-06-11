@@ -1,0 +1,17 @@
+.commentSectionContainer{
+    border: solid blue;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.commentSection{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.userName{
+    margin-right: 10px;
+}
