@@ -24,6 +24,10 @@ const PostContainer = (props) => {
                         <img className='commentIcon' src={commentIcon} alt='This is a comment icon to comment on this post'></img>
                     </div>
 
+                    <div className='likes'>{ePerson.likes}</div>
+
+
+
                     <CommentSection commentProp={ePerson.comments} />
 
 

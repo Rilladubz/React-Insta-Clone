@@ -1,6 +1,7 @@
 .postContainer{
     border: solid green;
     margin: 50px;
+    width: 65.5%;
 }
 
 .eachPostContainer{
@@ -13,6 +14,7 @@
     display: flex;
     align-items: center;
 }
+
 
 .profileImage{
     width: 30px;
@@ -27,4 +29,11 @@
 
 .heartIcon{
     margin-right: 10px;
+    margin-left: 10px;
+}
+
+.likes{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
 }
