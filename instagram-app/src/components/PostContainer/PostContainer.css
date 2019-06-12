@@ -1,0 +1,30 @@
+.postContainer{
+    border: solid green;
+    margin: 50px;
+}
+
+.eachPostContainer{
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.profileImageNName{
+    display: flex;
+    align-items: center;
+}
+
+.profileImage{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.likeNCommentIcon{
+    display: flex;
+    justify-content: start;
+    
+}
+
+.heartIcon{
+    margin-right: 10px;
+}
