@@ -16,6 +16,21 @@ class CommentSection extends React.Component {
 
     }
 
+    floatingProp = e => {
+        e.preventDefault()
+
+        const newObj = {
+            id: Date.now(),
+            username: 'Samuel',
+            text: this.state.newComment,
+        };
+
+        this.setState({
+            allComments: [...this.state.allComments, newObj]
+        })
+
+    };
+
     render() {
         console.log({ comment: this.state.allComments });
         return (
@@ -32,7 +47,8 @@ class CommentSection extends React.Component {
 
                     </div>
                 ))}
-                <form>
+
+                <form onSubmit={this.floatingProp}>
                     <input
                         className='commentInput'
                         type='text'
@@ -44,7 +60,7 @@ class CommentSection extends React.Component {
                     </input>
                 </form>
 
-            </div>
+            </div >
 
         );
     }
